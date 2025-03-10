@@ -133,6 +133,9 @@ header nav ul {
 }
 
 @media (max-width: 767px) {
+    header .container{
+        padding: 10px;
+    }
     header nav ul {
         display: none;
     }
@@ -180,7 +183,7 @@ header nav ul {
 }
 
 .landing .content h2 {
-    line-height: 1.5;
+    line-height: 1.2;
     font-weight: normal;
     margin-bottom: 20px;
 }
@@ -200,6 +203,12 @@ header nav ul {
     right: 30px;
 }
 
+@media (max-width: 767px){
+    .landing .change-background{
+        display: none;
+    }
+
+}
 .landing .bullets {
     position: absolute;
     left: 50%;
@@ -561,10 +570,14 @@ video {
     font-size: 50px;
     font-weight: bold;
     margin: 0 0 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .stats .container .box p {
     font-size: 14px;
+    display: flex;
+    justify-content: center;
 }
 
 .pricing {
@@ -674,6 +687,9 @@ video {
 @media (max-width: 991px) {
     .subscribe .container {
         flex-direction: column;
+    }
+    .subscribe , .footer{
+        font-size: 15px;
     }
 }
 
