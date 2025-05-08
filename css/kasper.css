@@ -159,6 +159,7 @@ header nav ul {
     height: 100vh;
     background-image: url(../images/landing.jpg);
     background-size: cover;
+    transition: opacity  0.5s ease-in-out;
     position: relative;
     box-shadow: inset 0px 0px 0px 500px rgba(0, 0, 0, 0.5);
 }
