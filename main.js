@@ -2,11 +2,11 @@
 const landing = document.querySelector(".landing");
 
 const landingImgs = [
-  "url(../images/landing.jpg)",
-  "url(../images/landing2.jpg)",
-  "url(../images/landing3.jpg)",
-  "url(../images/landing4.jpg)",
-  "url(../images/landing5.jpg)",
+  "url(./images/landing.jpg)",
+  "url(./images/landing2.jpg)",
+  "url(./images/landing3.jpg)",
+  "url(./images/landing4.jpg)",
+  "url(./images/landing5.jpg)",
 ];
 let i = 0;
 function changePhoto(direction) {
